@@ -50,13 +50,13 @@
     "verdict": "Obese"
   },
   "P006": {
-    "name": "John Doe",
-    "city": "Pune",
-    "age": 30,
+    "name": "Ram Verma",
+    "city": "Varanasi",
+    "age": 40,
     "gender": "Male",
-    "height": 1.75,
-    "weight": 70.2,
-    "bmi": 22.92,
-    "verdict": "Normal"
+    "height": 1.7,
+    "weight": 75.4,
+    "bmi": 26.09,
+    "verdict": "Overweight"
   }
 }
