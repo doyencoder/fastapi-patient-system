@@ -23,6 +23,12 @@ The API will be available at `http://127.0.0.1:8000`.
 - Records are persisted in `patients.json` as a simple key/value store keyed by patient ID.
 - BMI and verdict are recomputed when creating or updating a patient.
 
+## Project structure
+- `main.py` – FastAPI app instantiation and base routes.
+- `app/schemas.py` – Pydantic models (`Patient`, `PatientUpdate`).
+- `app/storage.py` – JSON-backed persistence helpers.
+- `app/routers/patients.py` – Patient CRUD/sort endpoints.
+
 ## Schemas
 - **Patient** (used for create):
   - `id` (string, required)
